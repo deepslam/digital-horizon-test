@@ -1,0 +1,26 @@
+.tree_item {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 90%;
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 7px 0px;
+  cursor: pointer;
+  transition: margin-left 0.75s;
+
+  & .age {
+    text-align: right;
+    color: $color_red;
+    font-weight:bold;
+  }
+
+  &.multiple {
+    background: #FBFFEC;
+  }
+
+  &.selected {
+    background: #FBFFEC;
+    margin-left:15px;
+  }
+}
